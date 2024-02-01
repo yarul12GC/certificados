@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/** body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(219,52,52,1) 58%);
+    z-index: -1; 
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #ffffff;
+    z-index: -1; 
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1; 
+}
+*/
+
+/* Resto de tu estilo CSS para el contenido de la página */
+
+ 
+  .form-register {
+    width: 30%;
+    height: auto;
+    background: #00000061;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-family: Verdana;
+    color: #000000;
+    text-align: center;
+    border-radius:3px ;
+  }
+  
+  .form-register h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #e3eaf0a7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px #e3eaf0a7;
+    font-family: Verdana;
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+    border-radius:4px;
+
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 95%;
+    background-color: #ff0000;
+    padding: 12px;
+    font-family: Verdana;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border: 0ch;
+    border-radius:5px;
+  }
+
+  .botons:hover {
+    background-color: #ff5353;
+  }
+
+
+  .logo {
+     width: 30%;
+     margin: 36px 0;
+     margin-top: 0ch;
+
+  }
+  .logo2 {
+    width: 20%;
+    margin: 10px 0;
+ }
